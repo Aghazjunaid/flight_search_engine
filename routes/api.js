@@ -9,6 +9,6 @@ apiRouter.get('', (req, res) => {
 
 //===============Flight api===================
 apiRouter.post('/insertFlight', flight.addFlight);
-apiRouter.get('/oneWayFlight', user.oneWayFlight);
+apiRouter.post('/oneWayFlight', flight.oneWayFlight);
 
 module.exports = apiRouter;
