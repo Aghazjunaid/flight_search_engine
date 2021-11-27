@@ -22,8 +22,6 @@ var mongoUrl = 'mongodb://127.0.0.1/ticketBooking'
 mongoose.connect(mongoUrl, {
   useNewUrlParser: true,
   useUnifiedTopology: true,
-  useFindAndModify: false,
-  useCreateIndex: true
 });
 
 

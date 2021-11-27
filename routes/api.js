@@ -7,8 +7,8 @@ apiRouter.get('', (req, res) => {
     res.status(200).send("Node api demo")
 })
 
-//===============User api===================
-// apiRouter.post('/register', user.registerUser);
-// apiRouter.get('/login', user.loginUser);
+//===============Flight api===================
+apiRouter.post('/insertFlight', flight.addFlight);
+apiRouter.get('/oneWayFlight', user.oneWayFlight);
 
 module.exports = apiRouter;
