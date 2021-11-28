@@ -1,0 +1,55 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.nav{
+  height: 50px;
+  padding: 0 30px;
+  border: 2px solid black;
+}
+.sidebar{
+  width: 25%;
+  border: 2px solid black;
+  height: 100vh;
+}
+.sidebar_heading{
+  border: 1px solid black;
+  border-radius: 5px 5px 0 0;
+  margin-left: 30px;
+}
+.form{
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+}
+.form > input {
+  width: 70%;
+  margin: 5px auto;
+  height: 30px;
+}
+.form > button {
+  width: 40%;
+  margin: 5px auto;
+  height: 30px;
+}
+.card{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  width: 500px;
+  display: flex;
+  margin: 20px;
+  justify-content: space-between;
+}
+.cardbtn{
+  margin: 15px;
+  width: 150px;
+  height: 30px;
+}
+.topBox{
+  border: 1px solid black;
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+  height: 50px;
+}

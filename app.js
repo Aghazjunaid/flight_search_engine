@@ -1,12 +1,12 @@
 const express = require('express')
 const mongoose = require('mongoose');
-// const bodyParser = require('body-parser');
+let cors = require('cors')
 
 const app = express()
 
 app.use(express.json());
 app.use(express.urlencoded());
-
+app.use(cors());
 
 const port = 5000;
 var apiRouter = require("./routes/api");
